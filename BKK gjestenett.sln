@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "php", "php", "{DC890459-D0A4-4372-AA81-A57E8174544B}"
 	ProjectSection(SolutionItems) = preProject
 		login.php = login.php
+		test.php = test.php
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "graphics", "graphics", "{6FD960AC-1F95-4CF7-AFCB-390D195423B3}"
@@ -13,13 +14,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "graphics", "graphics", "{6F
 		gammel_gui.png = gammel_gui.png
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E6890163-774E-4948-9309-84F137B40CA9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hsm", "hsm", "{5CF5C057-078C-4A0D-B915-5FDDF08AA7B2}"
 	ProjectSection(SolutionItems) = preProject
-		README.md = README.md
+		hsm\login_execute.php = hsm\login_execute.php
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{630D6515-CBF2-498A-B2A4-112B67EDF0C8}"
+	ProjectSection(SolutionItems) = preProject
+		hsm\include\initialize.php = hsm\include\initialize.php
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CF5C057-078C-4A0D-B915-5FDDF08AA7B2} = {DC890459-D0A4-4372-AA81-A57E8174544B}
+		{630D6515-CBF2-498A-B2A4-112B67EDF0C8} = {5CF5C057-078C-4A0D-B915-5FDDF08AA7B2}
 	EndGlobalSection
 EndGlobal

@@ -1,9 +1,15 @@
 <?php
+/* if (!defined("BASE_PATH")) define('BASE_PATH', isset($_SERVER['DOCUMENT_ROOT']) ? $_SERVER['DOCUMENT_ROOT'] : substr($_SERVER['PATH_TRANSLATED'],0, -1*strlen($_SERVER['SCRIPT_NAME']))); */
+$hsm_execute = "/hsm/login_execute.php";
+$hsm_initialize = "/hsm/include/initialize.php";
+$hsm_execute = realpath($hsm_execute);
+$hsm_initialize = realpath($hsm_initialize);
+
 /* initialize.php for calling the hsmx functions */
-require_once($_SERVER['DOCUMENT_ROOT']."/hsm/include/initialize.php");
+require_once($_SERVER['DOCUMENT_ROOT'].$hsm_initialize);
 
  /* login_execute.php, responsible for the login + registration */
-require($_SERVER['DOCUMENT_ROOT']."/hsm/login_execute.php");
+require($_SERVER['DOCUMENT_ROOT'].$hsm_execute);
 ?>
 <!DOCTYPE html>
 <html>
