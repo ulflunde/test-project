@@ -32,7 +32,7 @@ require($_SERVER['DOCUMENT_ROOT'].$hsm_execute);
         <div id="wrapper">
             <div id="header">
 		<br>
-                <td><label class="feature_img"><img src="images/BKK-Logo.jpg"></label></br>
+                <td><label class="feature_img"><img src="images/customer-Logo.jpg"></label></br>
 		<br>
 		<br>
 		</tr>
@@ -50,7 +50,7 @@ require($_SERVER['DOCUMENT_ROOT'].$hsm_execute);
                     <input type="text" class="loginInput" name="username" value="<?=$username?>" onKeyUp="document.loginForm.password.value=document.loginForm.username.value">
                     <input type="hidden" name="password">
                     <?php } else { ?>
-			<label class="feature_h">Velkommen til BKK WIFI gjestenett</br>
+			<label class="feature_h">Velkommen til customer WIFI gjestenett</br>
 			<label class="feature">For tilgang registrer ditt Mobilnummer (blir brukernavn)</br>  
 			<label class="feature">Passord for 24t tilgang sendes via SMS til registrert mobilnummer</br>
 			<label class="feature">Trykk link nederst for registrering</br>
