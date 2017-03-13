@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "php", "php", "{DC890459-D0A4-4372-AA81-A57E8174544B}"
 	ProjectSection(SolutionItems) = preProject
 		login.php = login.php
+		test.php = test.php
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "graphics", "graphics", "{6FD960AC-1F95-4CF7-AFCB-390D195423B3}"
